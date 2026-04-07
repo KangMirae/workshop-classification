@@ -35,7 +35,7 @@ Carga el CSV con `pd.read_csv()`. Revisa el shape y los nulos con `.isnull().sum
 ```python
 path = kagglehub.dataset_download("melissamonfared/spotify-tracks-attributes-and-popularity")
 
-df = pd.read_csv(os.path.join(path, "spotify_tracks.csv"))
+df = pd.read_csv(os.path.join(path, "dataset.csv"))
 
 print("Shape:", df.shape)
 
